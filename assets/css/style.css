@@ -336,6 +336,7 @@ section[id]{scroll-margin-top:92px}
 .card-08{--card-bg:linear-gradient(135deg,#78350F 0%,#D97706 100%);--card-accent:#FDE68A;--card-ink:#92400E}
 .card-09{--card-bg:linear-gradient(135deg,#312E81 0%,#6366F1 100%);--card-accent:#C7D2FE;--card-ink:#3730A3}
 .card-10{--card-bg:linear-gradient(135deg,#064E3B 0%,#059669 100%);--card-accent:#A7F3D0;--card-ink:#065F46}
+.card-11{--card-bg:linear-gradient(135deg,#0f172a 0%,#475569 100%);--card-accent:#e2e8f0;--card-ink:#0f172a}
 
 @media(max-width:760px){
   .program-card{min-height:285px!important;padding:1.3rem!important;border-radius:17px!important}
@@ -349,3 +350,14 @@ section[id]{scroll-margin-top:92px}
   .program-card .status{font-size:.61rem;padding:.3rem .5rem}
   .program-card h3{font-size:1.38rem}
 }
+
+/* Final card text refinements */
+.program-card .discipline{margin-top:auto;transform:translateY(-10px);}
+.program-card .card-footer{margin-top:auto;}
+
+.research-question{font-size:calc(1em + 2px)!important;font-weight:400!important;}
+
+.course-keywords{display:inline-block;width:fit-content;max-width:100%;padding:7px 12px;margin-top:8px!important;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.32);border-radius:7px;color:#fff!important;font-size:.9rem;line-height:1.3!important;overflow-wrap:break-word;}
+
+.program-card .card-content{min-width:0;}
+.program-card .card-content h3,.program-card .card-content p{overflow-wrap:break-word;}
