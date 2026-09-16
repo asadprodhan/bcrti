@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Galaxy Australia",
+    "provider": "Australian BioCommons",
+    "country": "Australia",
+    "cost": "Free",
+    "kind": "Web platform",
+    "access": "Free to use; register / sign in",
+    "best": "Bioinformatics without managing servers; genomics, transcriptomics, microbiome, proteomics and more",
+    "tags": [
+      "Web",
+      "CPU",
+      "Workflows",
+      "Beginner-friendly"
+    ],
+    "url": "https://www.biocommons.org.au/galaxy-australia",
+    "apply": "https://usegalaxy.org.au/",
+    "australianResearcher": "Yes"
+  },
+  {
+    "name": "Australian BioCommons ABLeS",
+    "provider": "Australian BioCommons",
+    "country": "Australia",
+    "cost": "Subsidised",
+    "kind": "HPC allocation",
+    "access": "Application / eligibility",
+    "best": "Large-scale life-science analyses requiring allocations at NCI or Pawsey",
+    "tags": [
+      "HPC",
+      "CPU",
+      "GPU",
+      "National"
+    ],
+    "url": "https://www.biocommons.org.au/access-compute",
+    "apply": "https://www.biocommons.org.au/access-compute",
+    "australianResearcher": "Yes"
+  },
+  {
+    "name": "Gadi",
+    "provider": "National Computational Infrastructure (NCI)",
+    "country": "Australia",
+    "cost": "Subsidised",
+    "kind": "HPC",
+    "access": "Allocation / project access",
+    "best": "Large CPU, memory and data-intensive research workflows",
+    "tags": [
+      "HPC",
+      "CPU",
+      "High-memory",
+      "National"
+    ],
+    "url": "https://nci.org.au/our-systems/hpc-systems",
+    "apply": "https://nci.org.au/access-nci",
+    "australianResearcher": "Yes"
+  },
+  {
+    "name": "Setonix",
+    "provider": "Pawsey Supercomputing Research Centre",
+    "country": "Australia",
+    "cost": "Free",
+    "kind": "HPC",
+    "access": "No-cost merit/allocation access for eligible Australian research projects",
+    "best": "Large-scale CPU/GPU workloads, workflow execution and computational research",
+    "tags": [
+      "HPC",
+      "CPU",
+      "GPU",
+      "WA"
+    ],
+    "url": "https://pawsey.org.au/systems/setonix/",
+    "apply": "https://apply.pawsey.org.au/",
+    "australianResearcher": "Yes"
+  },
+  {
+    "name": "Nectar Research Cloud",
+    "provider": "Australian Research Data Commons (ARDC)",
+    "country": "Australia",
+    "cost": "Free",
+    "kind": "Research cloud",
+    "access": "No-cost for Australian researchers; trial / project allocation",
+    "best": "Research virtual machines, cloud-hosted services and reproducible environments",
+    "tags": [
+      "Cloud",
+      "VM",
+      "Research",
+      "National"
+    ],
+    "url": "https://ardc.edu.au/services/nectar-research-cloud/",
+    "apply": "https://support.ehelp.edu.au/support/solutions/articles/6000267715-allocation-management",
+    "australianResearcher": "Yes"
+  },
+  {
+    "name": "Nimbus",
+    "provider": "Pawsey Supercomputing Research Centre",
+    "country": "Australia",
+    "cost": "Subsidised",
+    "kind": "Research cloud",
+    "access": "Allocation application",
+    "best": "Cloud virtual machines and research services requiring flexible infrastructure",
+    "tags": [
+      "Cloud",
+      "VM",
+      "WA",
+      "Research"
+    ],
+    "url": "https://pawsey.org.au/systems/nimbus-research-cloud/",
+    "apply": "https://apply.pawsey.org.au/",
+    "australianResearcher": "Yes"
+  },
+  {
+    "name": "QRIScloud",
+    "provider": "QCIF / UQ Research Computing Centre",
+    "country": "Australia",
+    "cost": "Subsidised",
+    "kind": "Research cloud",
+    "access": "Eligibility / allocation",
+    "best": "Cloud computing and data-intensive research, particularly Queensland research communities",
+    "tags": [
+      "Cloud",
+      "VM",
+      "Research",
+      "Queensland"
+    ],
+    "url": "https://www.qriscloud.org.au/",
+    "apply": "https://www.qriscloud.org.au/",
+    "australianResearcher": "Yes"
+  },
+  {
+    "name": "Amazon Web Services (AWS)",
+    "provider": "Amazon Web Services",
+    "country": "International",
+    "cost": "Paid",
+    "kind": "Commercial cloud",
+    "access": "Account / pay-as-you-go",
+    "best": "Elastic CPU/GPU compute, storage, containers and production-scale workflows",
+    "tags": [
+      "Cloud",
+      "CPU",
+      "GPU",
+      "Commercial"
+    ],
+    "url": "https://aws.amazon.com/health/biotech/",
+    "apply": "https://aws.amazon.com/",
+    "australianResearcher": "No"
+  },
+  {
+    "name": "Google Cloud",
+    "provider": "Google",
+    "country": "International",
+    "cost": "Paid",
+    "kind": "Commercial cloud",
+    "access": "Account / pay-as-you-go",
+    "best": "Scalable compute, storage, AI/ML and cloud-native bioinformatics workflows",
+    "tags": [
+      "Cloud",
+      "CPU",
+      "GPU",
+      "AI/ML"
+    ],
+    "url": "https://cloud.google.com/solutions/life-sciences",
+    "apply": "https://cloud.google.com/",
+    "australianResearcher": "No"
+  },
+  {
+    "name": "Microsoft Azure",
+    "provider": "Microsoft",
+    "country": "International",
+    "cost": "Paid",
+    "kind": "Commercial cloud",
+    "access": "Account / pay-as-you-go",
+    "best": "Cloud HPC, GPU, data platforms and enterprise research environments",
+    "tags": [
+      "Cloud",
+      "HPC",
+      "GPU",
+      "Commercial"
+    ],
+    "url": "https://azure.microsoft.com/en-us/solutions/high-performance-computing",
+    "apply": "https://azure.microsoft.com/",
+    "australianResearcher": "No"
+  },
+  {
+    "name": "DigitalOcean",
+    "provider": "DigitalOcean",
+    "country": "International",
+    "cost": "Paid",
+    "kind": "Commercial cloud",
+    "access": "Account / pay-as-you-go",
+    "best": "Small-to-medium virtual servers, web services and lightweight bioinformatics infrastructure",
+    "tags": [
+      "Cloud",
+      "VM",
+      "Simple",
+      "Commercial"
+    ],
+    "url": "https://www.digitalocean.com/",
+    "apply": "https://www.digitalocean.com/",
+    "australianResearcher": "No"
+  }
+]

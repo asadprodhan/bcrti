@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Bioconductor Job Postings",
+    "organisation": "Bioconductor Community",
+    "location": "International",
+    "type": "Job board",
+    "level": "Multiple levels",
+    "area": "Bioinformatics & computational biology",
+    "description": "Community-posted bioinformatics, computational biology, research software, PhD and postdoctoral opportunities.",
+    "url": "https://support.bioconductor.org/tag/JobPosting/?limit=year&order=creation",
+    "source": "Bioconductor",
+    "keywords": [
+      "bioinformatics",
+      "computational biology",
+      "genomics",
+      "genome",
+      "sequencing",
+      "NGS",
+      "research",
+      "data science",
+      "Python",
+      "R"
+    ]
+  },
+  {
+    "title": "Bioinformatics & Genomics Jobs",
+    "organisation": "SEEK Australia",
+    "location": "Australia",
+    "type": "Job board",
+    "level": "Multiple levels",
+    "area": "Bioinformatics, genomics & data science",
+    "description": "Search current Australian vacancies and refine by location, salary, work type and employer.",
+    "url": "https://www.seek.com.au/bioinformatics-jobs",
+    "source": "SEEK",
+    "keywords": [
+      "bioinformatics",
+      "computational biology",
+      "genomics",
+      "genome",
+      "sequencing",
+      "NGS",
+      "research",
+      "data science",
+      "Python",
+      "R"
+    ]
+  },
+  {
+    "title": "Bioinformatics Jobs",
+    "organisation": "LinkedIn Jobs",
+    "location": "International",
+    "type": "Job board",
+    "level": "Multiple levels",
+    "area": "Bioinformatics & computational biology",
+    "description": "Search professional bioinformatics opportunities across academia, government and industry.",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=bioinformatics",
+    "source": "LinkedIn",
+    "keywords": [
+      "bioinformatics",
+      "computational biology",
+      "genomics",
+      "genome",
+      "sequencing",
+      "NGS",
+      "research",
+      "data science",
+      "Python",
+      "R"
+    ]
+  },
+  {
+    "title": "Bioinformatics Jobs",
+    "organisation": "Indeed Australia",
+    "location": "Australia",
+    "type": "Job board",
+    "level": "Multiple levels",
+    "area": "Bioinformatics, genomics & computational biology",
+    "description": "Search current bioinformatics, genomics, computational biology and related vacancies on Indeed Australia.",
+    "url": "https://au.indeed.com/jobs?q=bioinformatics",
+    "source": "Indeed",
+    "keywords": [
+      "bioinformatics",
+      "computational biology",
+      "genomics",
+      "genome",
+      "sequencing",
+      "NGS",
+      "research",
+      "data science",
+      "Python",
+      "R"
+    ]
+  }
+]
