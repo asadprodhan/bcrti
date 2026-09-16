@@ -363,17 +363,33 @@ section[id]{scroll-margin-top:92px}
 .program-card .card-content h3,.program-card .card-content p{overflow-wrap:break-word;}
 
 /* BCRTI header logo */
+.brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 420px;
+  max-width: 42%;
+}
+
 .brand-logo {
   display: block;
-  width: auto;
-  height: 58px;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   object-fit: contain;
 }
 
-@media (max-width: 768px) {
-  .brand-logo {
-    height: 46px;
+@media (max-width: 1050px) {
+  .brand {
+    width: 360px;
+    max-width: 75%;
   }
 }
+
+@media (max-width: 600px) {
+  .brand {
+    width: 280px;
+    max-width: 85%;
+  }
+}
+
 
