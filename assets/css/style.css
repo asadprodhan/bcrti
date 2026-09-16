@@ -413,3 +413,18 @@ section[id]{scroll-margin-top:92px}
     max-width: 70vw;
   }
 }
+/* FINAL NAVBAR APPEARANCE */
+.navbar {
+  background: #ffffff !important;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+
+.nav-links a {
+  color: #061a2f !important;
+  font-size: 1rem !important;
+  font-weight: 750;
+}
+
+.nav-links a:hover {
+  color: #087f70 !important;
+}
