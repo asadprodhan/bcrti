@@ -361,3 +361,19 @@ section[id]{scroll-margin-top:92px}
 
 .program-card .card-content{min-width:0;}
 .program-card .card-content h3,.program-card .card-content p{overflow-wrap:break-word;}
+
+/* BCRTI header logo */
+.brand-logo {
+  display: block;
+  width: auto;
+  height: 58px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .brand-logo {
+    height: 46px;
+  }
+}
+
