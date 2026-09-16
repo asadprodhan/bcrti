@@ -362,41 +362,54 @@ section[id]{scroll-margin-top:92px}
 .program-card .card-content{min-width:0;}
 .program-card .card-content h3,.program-card .card-content p{overflow-wrap:break-word;}
 
-/* BCRTI header */
+/* BCRTI HEADER — CLEAN FINAL VERSION */
+
 .brand {
   display: flex;
   align-items: center;
   text-decoration: none;
   flex-shrink: 0;
+  margin: 0;
 }
 
 .brand-logo {
   display: block;
-  width: 400px;
+  width: 200px;       /* reduced from 400px by 50% */
   height: auto;
   max-width: none;
+  margin: 0;
 }
 
-@media (min-width: 1051px) {
-  .navbar {
-    padding: 0.6rem 5%;
-    align-items: center;
-  }
-
-  .nav-links {
-    align-items: center;
-  }
+.navbar {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0.45rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,.12);
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0;
+  font-size: .9rem;
+  font-weight: 750;
+}
+
+/* Tablet */
 @media (max-width: 1050px) {
   .brand-logo {
-    width: 340px;
+    width: 180px;
   }
 }
 
+/* Mobile */
 @media (max-width: 600px) {
   .brand-logo {
-    width: 270px;
-    max-width: 85vw;
+    width: 150px;
+    max-width: 70vw;
   }
 }
