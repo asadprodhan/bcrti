@@ -362,7 +362,7 @@ section[id]{scroll-margin-top:92px}
 .program-card .card-content{min-width:0;}
 .program-card .card-content h3,.program-card .card-content p{overflow-wrap:break-word;}
 
-/* BCRTI header logo - final */
+/* BCRTI header */
 .brand {
   display: flex;
   align-items: center;
@@ -372,20 +372,31 @@ section[id]{scroll-margin-top:92px}
 
 .brand-logo {
   display: block;
-  width: 400px !important;
-  height: auto !important;
+  width: 400px;
+  height: auto;
   max-width: none;
+}
+
+@media (min-width: 1051px) {
+  .navbar {
+    padding: 0.6rem 5%;
+    align-items: center;
+  }
+
+  .nav-links {
+    align-items: center;
+  }
 }
 
 @media (max-width: 1050px) {
   .brand-logo {
-    width: 340px !important;
+    width: 340px;
   }
 }
 
 @media (max-width: 600px) {
   .brand-logo {
-    width: 270px !important;
+    width: 270px;
     max-width: 85vw;
   }
 }
