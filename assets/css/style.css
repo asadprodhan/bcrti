@@ -364,6 +364,7 @@ section[id]{scroll-margin-top:92px}
 
 /* =========================================
    FINAL FULL-WIDTH WHITE NAVBAR
+   Original BCRTI PNG
    ========================================= */
 
 .navbar {
@@ -376,15 +377,6 @@ section[id]{scroll-margin-top:92px}
 
   padding-left: 5% !important;
   padding-right: 5% !important;
-
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-}
-
-.nav-links {
-  display: flex !important;
-  align-items: center !important;
 }
 
 .nav-links a {
@@ -398,49 +390,27 @@ section[id]{scroll-margin-top:92px}
 }
 
 
-/* =========================================
-   FINAL LOGO SIZE
-   ========================================= */
+/* ORIGINAL LOGO PNG — SIZE THAT WORKED */
 
-/* Desktop */
 @media (min-width: 1051px) {
-  .navbar {
-    height: 120px !important;
-    min-height: 0 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-
-  .navbar .brand {
-    margin: 0 !important;
-    padding: 0 !important;
-    display: flex !important;
-    align-items: center !important;
-  }
-
   .navbar .brand .brand-logo {
-    width: 400px !important;
+    width: 350px !important;
     height: auto !important;
-    max-width: 400px !important;
-    margin: 0 !important;
+    max-width: 350px !important;
   }
 }
 
-
-/* Tablet */
 @media (min-width: 601px) and (max-width: 1050px) {
   .navbar .brand .brand-logo {
-    width: 340px !important;
+    width: 300px !important;
     height: auto !important;
-    max-width: 340px !important;
+    max-width: 300px !important;
   }
 }
 
-
-/* Mobile */
 @media (max-width: 600px) {
   .navbar .brand .brand-logo {
-    width: 270px !important;
+    width: 250px !important;
     height: auto !important;
     max-width: 85vw !important;
   }
