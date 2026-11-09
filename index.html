@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="BCRTI builds practical, research-aligned bioinformatics capability through structured micro-credentials, hands-on workflows and reusable learning resources.">
+  <title>BCRTI | Bioinformatics Capability and Research Training Institute</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    #microcredentials .program-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+    #microcredentials .program-card { display:flex!important; flex-direction:column!important; min-width:0!important; height:auto!important; }
+    #microcredentials .program-card .card-visual {
+      position:relative!important; flex:0 0 54px!important; height:54px!important; min-height:54px!important;
+      padding:0!important; overflow:visible!important; background:transparent!important; border:0!important;
+    }
+    #microcredentials .program-card .card-top {
+      position:absolute!important; top:10px!important; left:14px!important; right:14px!important;
+      display:flex!important; justify-content:space-between!important; align-items:center!important; margin:0!important;
+    }
+    #microcredentials .program-card .course-art {
+      display:block!important; position:static!important; inset:auto!important; z-index:auto!important;
+      width:100%!important; height:auto!important; aspect-ratio:3 / 2!important; object-fit:contain!important;
+      margin:1rem 0 1.15rem!important; padding:0!important; background:#f7f9fc!important; border-radius:4px!important;
+    }
+    #microcredentials .program-card .card-content {
+      display:flex!important; flex-direction:column!important; flex:1 1 auto!important;
+      visibility:visible!important; opacity:1!important; position:relative!important; z-index:1!important;
+      min-height:0!important; padding:1rem 1.2rem 1.2rem!important; color:#102033!important; background:#fff!important;
+    }
+    #microcredentials .program-card .card-content .discipline,
+    #microcredentials .program-card .card-content h3,
+    #microcredentials .program-card .card-content p,
+    #microcredentials .program-card .card-content strong { color:#102033!important; }
+    #microcredentials .program-card .card-content .course-keywords {
+      color:#33485a!important; background:#f2f6f8!important; border:1px solid #dbe4ea!important;
+    }
+    #microcredentials .program-card .card-content .card-footer { color:#087f70!important; border-color:#dbe4ea!important; }
+    @media(max-width:700px) { #microcredentials .program-grid { grid-template-columns:1fr!important; } }
+  </style>
+</head>
+<body>
+<header class="site-header" id="top">
+  <nav class="navbar" aria-label="Primary navigation">
+    <a class="brand" href="#top" aria-label="BCRTI home">
+      <img
+        src="assets/images/BCRTI_Logo_horizontal.png"
+        alt="Bioinformatics Capability and Research Training Institute"
+        class="brand-logo"
+      >
+    </a>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#microcredentials">Micro-credentials</a><a href="#approach">Approach</a><a href="#impact">Impact</a><a href="#leadership">Leadership</a><a class="nav-feature" href="#jobs">Bioinformatics Jobs</a><a class="nav-feature" href="#compute">Compute Resources</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Practical bioinformatics for research</p>
+      <h1>From biological data to reproducible discovery.</h1>
+      <p class="hero-subtitle">BCRTI develops research-aligned bioinformatics micro-credentials that help HDR students, early-career researchers and research teams build the confidence to analyse real biological data independently.</p>
+      <div class="hero-actions">
+        <a href="#microcredentials" class="btn btn-primary">Explore micro-credentials</a>
+        <a href="#about" class="btn btn-ghost">Discover BCRTI</a>
+      </div>
+      <div class="hero-proof" aria-label="BCRTI training principles">
+        <span>Research-aligned</span><span>Hands-on</span><span>Reproducible</span><span>Beginner-friendly</span>
+      </div>
+    </div>
+    <div class="hero-system" aria-label="Bioinformatics learning pathway illustration">
+      <div class="system-label">BCRTI CAPABILITY PATHWAY</div>
+      <div class="system-core"><small>BIOLOGICAL<br>QUESTION</small><strong>→</strong><b>ANALYSIS</b></div>
+      <div class="node n1">FASTQ</div><div class="node n2">Linux</div><div class="node n3">QC</div><div class="node n4">R</div><div class="node n5">Genomics</div><div class="node n6">Microbiome</div>
+      <div class="system-output"><span>OUTPUT</span><strong>Reproducible research capability</strong></div>
+    </div>
+  </section>
+</header>
+
+<main>
+  <section id="about" class="section intro-section">
+    <div class="section-heading split-heading">
+      <div><p class="section-kicker">Why BCRTI</p><h2>Closing the gap between sequencing and analysis.</h2></div>
+      <p class="lead">Modern biological research increasingly depends on computational analysis, yet many researchers encounter sequencing data before they have had the opportunity to develop practical bioinformatics skills. BCRTI turns that gap into a structured capability pathway: understand the data, learn the tools, run the workflow, interpret the evidence and reproduce the analysis.</p>
+    </div>
+    <div class="principles">
+      <article><span>01</span><h3>Research first</h3><p>Training is organised around authentic biological questions and the workflows researchers actually need.</p></article>
+      <article><span>02</span><h3>Practice first</h3><p>Learners build capability by working with data, commands, tools, outputs and interpretation—not by watching passively.</p></article>
+      <article><span>03</span><h3>Reproducibility first</h3><p>Good computational habits, documentation and transparent workflows are embedded from the beginning.</p></article>
+    </div>
+  </section>
+
+  <section id="microcredentials" class="section microcredentials">
+    <div class="section-heading portfolio-heading">
+      <div><p class="section-kicker">Training portfolio</p><h2>A growing micro-credential pathway.</h2></div>
+      <p>Start with foundations, then progress into specialised analytical workflows. Courses with live learner pages are marked <strong>Available now</strong>.</p>
+    </div>
+
+    <div class="program-grid">
+      <a class="program-card live featured card-01" href="/fob/" target="_blank" rel="noopener noreferrer">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">01</span><span class="status available">Available now</span></div></div>
+        <div class="card-content"><p class="discipline">FOUNDATIONS</p><h3>Foundations of Bioinformatics</h3><p class="research-question"><strong>Ready to analyse DNA sequencing data?</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-01.png" alt="Illustrative sequencing quality, GC-content, read-length, and duplication plots" loading="lazy" decoding="async"><p>Build practical skills to navigate bioinformatics environments and analyse sequencing data.</p><p class="course-keywords"><strong>DNA Data | FastQ | Linux | WSL | Bash</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </a>
+      <a class="program-card live card-02" href="https://asadprodhan.github.io/microbiome/" target="_blank" rel="noopener noreferrer">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">02</span><span class="status available">Available now</span></div></div>
+        <div class="card-content"><p class="discipline">MICROBIOME</p><h3>Microbiome Analysis · 16S</h3><p class="research-question"><strong>Ready to explore your microbiome data?</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-02.png" alt="Illustrative 16S community composition, diversity, ordination, and taxa abundance plots" loading="lazy" decoding="async"><p>Build practical skills to profile microbial communities, compare diversity and patterns.</p><p class="course-keywords"><strong>16S | QIIME 2 | ASVs | Taxonomy | Diversity</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </a>
+      <article class="program-card card-03">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">03</span><span class="status developing">In development</span></div></div>
+        <div class="card-content"><p class="discipline">METAGENOMICS</p><h3>Microbiome Analysis · Shotgun</h3><p class="research-question"><strong>Ready to unlock metagenomic data?</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-03.png" alt="Illustrative shotgun taxonomy, pathway, antimicrobial-resistance, and abundance plots" loading="lazy" decoding="async"><p>Build practical skills to profile microbial communities and explore functional potential.</p><p class="course-keywords"><strong>Shotgun | Taxonomy | Functions | AMR</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </article>
+      <article class="program-card card-04">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">04</span><span class="status developing">In development</span></div></div>
+        <div class="card-content"><p class="discipline">GENOMICS</p><h3>Genome Assembly &amp; Annotation</h3><p class="research-question"><strong>Ready to build and explore your genome?</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-04.png" alt="Illustrative genome assembly length, coverage, GC-content, and completeness plots" loading="lazy" decoding="async"><p>Build practical skills to assemble genomes, assess quality and annotate features.</p><p class="course-keywords"><strong>Assembly | QC | Annotation | Genes | Genomes</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </article>
+      <article class="program-card card-05">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">05</span><span class="status developing">In development</span></div></div>
+        <div class="card-content"><p class="discipline">VARIANTS</p><h3>Genome Analysis &amp; Variant</h3><p class="research-question"><strong>Ready to discover genomic variations?</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-05.png" alt="Illustrative SNP and indel counts, allele frequencies, read depth, and variant density plots" loading="lazy" decoding="async"><p>Build practical skills to map reads, identify variants, assess quality and interpret genomic variation.</p><p class="course-keywords"><strong>Mapping | SNPs | Indels | VCF | Annotation</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </article>
+      <article class="program-card card-06">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">06</span><span class="status developing">In development</span></div></div>
+        <div class="card-content"><p class="discipline">TRANSCRIPTOMICS</p><h3>Transcriptomics &amp; RNA-seq</h3><p class="research-question"><strong>Ready to uncover DEGs?</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-06.png" alt="Illustrative RNA-seq differential expression, expression heatmap, PCA, and boxplots" loading="lazy" decoding="async"><p>Build practical skills to analyse RNA-seq data, identify DEGs and interpret biological pathways.</p><p class="course-keywords"><strong>RNA-seq | R | DESeq2 | DEGs | Pathways</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </article>
+      <article class="program-card card-07">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">07</span><span class="status planned">Planned</span></div></div>
+        <div class="card-content"><p class="discipline">COMPARATIVE GENOMICS</p><h3>Pangenome Analysis</h3><p class="research-question"><strong>Ready to explore genomic diversity?</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-07.png" alt="Illustrative pangenome gene accumulation, presence-absence, similarity, and gene count plots" loading="lazy" decoding="async"><p>Build practical skills to identify core, accessory and unique genes across multiple genomes.</p><p class="course-keywords"><strong>Core Genome | Accessory Genome | Diversity</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </article>
+      <article class="program-card card-08">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">08</span><span class="status planned">Planned</span></div></div>
+        <div class="card-content"><p class="discipline">QUANTITATIVE GENETICS</p><h3>QTL Analysis</h3><p class="research-question"><strong>Connect genotype with phenotype.</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-08.png" alt="Illustrative QTL mapping, phenotype groups, linkage map, and effect estimate plots" loading="lazy" decoding="async"><p>Map quantitative traits, detect genomic regions and identify candidate genes.</p><p class="course-keywords"><strong>Phenotypes | Markers | QTL | Candidate Genes</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </article>
+      <article class="program-card card-09">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">09</span><span class="status planned">Planned</span></div></div>
+        <div class="card-content"><p class="discipline">DATA SKILLS</p><h3>R for Biological Research</h3><p class="research-question"><strong>Ready to turn biological data into insight?</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-09.png" alt="Illustrative biological data scatterplot, boxplots, histogram, and correlation heatmap" loading="lazy" decoding="async"><p>Build practical skills to organise, analyse, visualise and report biological data reproducibly.</p><p class="course-keywords"><strong>R | RStudio | ggplot2 | Data Visualisation</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </article>
+      <article class="program-card card-10">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">10</span><span class="status planned">Planned</span></div></div>
+        <div class="card-content"><p class="discipline">REPRODUCIBILITY</p><h3>Bioinformatics Pipeline</h3><p class="research-question"><strong>Automate your bioinformatics analyses.</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-10.png" alt="Illustrative workflow completion, runtime, resource use, and quality comparison plots" loading="lazy" decoding="async"><p>Build practical skills to create reproducible, portable and scalable computational workflows.</p><p class="course-keywords"><strong>Pipeline | Nextflow | Containers | Automation</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </article>
+      <article class="program-card card-11">
+        <div class="card-visual"><div class="card-top"><span class="course-icon">+</span><span class="status planned">Tailored</span></div></div>
+        <div class="card-content"><p class="discipline">TAILORED TRAINING</p><h3>Need a Specific Capability?</h3><p class="research-question"><strong>Your research. Your data. Your capability.</strong></p>
+        <img class="course-art" src="assets/images/course-visuals-generated/course-11.png" alt="Illustrative research quality, group comparison, feature heatmap, and pathway plots" loading="lazy" decoding="async"><p>BCRTI develops and delivers focused bioinformatics training tailored to your needs.</p><p class="course-keywords"><strong>Custom Training | New Capability</strong></p><div class="card-footer"><span>Open learner site</span><span aria-hidden="true">↗</span></div></div>
+      </article>
+    </div>
+
+    <div class="opportunity-banner" aria-label="BCRTI learner motivation">
+      <div class="opportunity-copy">
+        <p class="opportunity-kicker">Build what comes next</p>
+        <h3>New Capability, <span>New Opportunity.</span></h3>
+        <p>Every new analytical capability expands what you can ask, what you can analyse, and where your research skills can take you.</p>
+      </div>
+      <div class="opportunity-path" aria-hidden="true">
+        <span>LEARN</span><b>→</b><span>APPLY</span><b>→</b><span>GROW</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="approach" class="section approach">
+    <div class="section-heading light"><p class="section-kicker">The BCRTI approach</p><h2>Capability is built by doing.</h2><p class="light-lead">Each learning experience is designed to move participants from conceptual understanding to independent, reproducible analysis.</p></div>
+    <div class="journey-track">
+      <div><span>01</span><strong>Understand</strong><p>Connect the biological question to the data type and analytical strategy.</p></div>
+      <div><span>02</span><strong>Prepare</strong><p>Understand files, metadata, computing environments and quality.</p></div>
+      <div><span>03</span><strong>Analyse</strong><p>Run a structured workflow using research-relevant tools.</p></div>
+      <div><span>04</span><strong>Interpret</strong><p>Translate analytical outputs into defensible biological evidence.</p></div>
+      <div><span>05</span><strong>Reproduce</strong><p>Document, organise and communicate an analysis so it can be repeated.</p></div>
+    </div>
+  </section>
+
+  <section id="impact" class="section impact">
+    <div class="section-heading split-heading"><div><p class="section-kicker">Capability in practice</p><h2>Designed for the research journey.</h2></div><p class="lead">BCRTI is built for researchers who need more than software demonstrations: they need a pathway from first principles to confident application in their own projects.</p></div>
+    <div class="audience-grid">
+      <article><h3>HDR students</h3><p>Build the computational independence needed to progress sequencing-based research.</p></article>
+      <article><h3>Early-career researchers</h3><p>Add transferable analytical capability and reproducible practices to an existing biological skill set.</p></article>
+      <article><h3>Research teams</h3><p>Create shared analytical understanding and more consistent, transparent computational workflows.</p></article>
+    </div>
+  </section>
+
+  <section id="leadership" class="section leadership">
+    <div class="leader-card">
+      <div class="leader-photo-wrap">
+        <img class="leader-photo" src="assets/images/asad-prodhan.jpg" alt="Dr Asad Prodhan, Founder and Academic Lead of BCRTI">
+      </div>
+      <div class="leader-profile">
+        <p class="section-kicker">Founder &amp; Academic Lead</p>
+        <h2>Dr Asad Prodhan</h2>
+        <p class="founder-role">Founder, BCRTI · Bioinformatics Capability and Research Training Institute</p>
+        <p class="leader-bio">Dr Prodhan is a molecular biologist and bioinformatician whose own transition into bioinformatics shaped the philosophy behind BCRTI. During his JSPS Postdoctoral Fellowship in Japan, he began systematically documenting every computational analysis he learned and applied—turning the challenge of learning bioinformatics into a structured, hands-on journey from coding fundamentals to reproducible research workflows. Those learning notes gradually evolved into <strong><a href="https://github.com/asadprodhan/Bioinformatics_Core" target="_blank" rel="noopener noreferrer">Bioinformatics Core</a></strong>, an expanding practical resource spanning Linux, R, sequencing data, genomics, microbiome analysis and workflow development. That journey demonstrated a principle that now sits at the heart of BCRTI: <strong>complex computational skills become achievable when they are broken into practical, purposeful and reproducible steps.</strong> BCRTI grew from that philosophy—to help students and researchers build not simply bioinformatics knowledge, but the <strong>confidence and capability to analyse their own data independently.</strong></p>
+        <div class="affiliation"><strong>Academic affiliations</strong><span>Adjunct Senior Lecturer in Bioinformatics, The University of Western Australia</span><span>Adjunct Senior Lecturer, Murdoch University</span></div>
+        <p class="independence-note"><strong>BCRTI is independently founded and led by Dr Prodhan.</strong> Academic affiliations are provided for biographical context and do not imply that BCRTI is a program of, or operated on behalf of, any affiliated institution.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="jobs" class="section opportunity-hub compact-hub jobs-hub">
+    <div class="jobs-tool-shell">
+      <div class="jobs-tool-copy">
+        <p class="section-kicker">Career opportunities</p>
+        <h2>Find Bioinformatics Jobs</h2>
+      </div>
+      <div class="job-source-labels job-directory-labels" aria-label="Bioinformatics job websites">
+        <a href="https://support.bioconductor.org/tag/JobPosting/?limit=year&amp;order=creation" target="_blank" rel="noopener noreferrer" class="job-source-label bioconductor">Bioconductor</a>
+        <a href="https://www.seek.com.au/bioinformatics-jobs" target="_blank" rel="noopener noreferrer" class="job-source-label seek">SEEK</a>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=bioinformatics" target="_blank" rel="noopener noreferrer" class="job-source-label linkedin">in</a>
+        <a href="https://au.indeed.com/jobs?q=bioinformatics" target="_blank" rel="noopener noreferrer" class="job-source-label indeed">indeed</a>
+        <a href="https://www.higheredjobs.com/search/advanced_action.cfm?JOBCAT=&amp;REMOTE=&amp;METROS=&amp;POSTYPE=&amp;INSTTYPE=&amp;NEWRESULTS=1&amp;JOBCATTYPE=&amp;NUMJOBS=25&amp;SORTBY=4&amp;SUBREGIONS=&amp;OnlyTitle=0&amp;Keyword=Bioinformatics&amp;REGION=0&amp;filterKeywords=Bioinformatics&amp;filterTitleOnly=1" target="_blank" rel="noopener noreferrer" class="job-source-label higheredjobs">HigherEdJobs</a>
+        <a href="https://www.timeshighereducation.com/unijobs/listings/australia/?Keywords=Bioinformatics#browsing" target="_blank" rel="noopener noreferrer" class="job-source-label theunijobs">THEunijobs</a>
+        <a href="https://www.academicjobs.com/university-jobs?r=Global&amp;q=Bioinformatics&amp;page=1" target="_blank" rel="noopener noreferrer" class="job-source-label academicjobs">AcademicJobs</a>
+      </div>
+      <div class="jobs-footer"><p><strong>Want to become more competitive for bioinformatics roles?</strong> Build practical, research-ready skills through BCRTI micro-credentials.</p><a class="btn btn-primary" href="#microcredentials">Explore micro-credentials</a></div>
+    </div>
+  </section>
+
+  <section id="compute" class="section compute-hub compact-hub">
+    <div class="compute-tool-shell">
+      <div class="compute-tool-copy">
+        <p class="section-kicker">Research tool</p>
+        <h2>Find Bioinformatics Compute</h2>
+      </div>
+      <div class="hub-toolbar compact-toolbar compute-single-filter" aria-label="Compute resource filter">
+        <select id="compute-kind" class="hub-select" aria-label="Filter by compute type">
+          <option value="all">Any compute</option>
+          <option value="HPC">High Performance Computing (HPC) Cluster</option>
+          <option value="Cloud">Cloud Computing</option>
+          <option value="Web platform">Web platform</option>
+        </select>
+        <button id="compute-search-button" class="btn btn-primary hub-search-button" type="button">Search</button>
+        <button id="compute-clear-button" class="btn hub-search-button" type="button">Clear Search</button>
+      </div>
+      <div id="compute-grid"
+           class="resource-grid compact-results"
+           aria-live="polite"></div>
+      <div class="compute-footer"><p><strong>Need the skills to use these resources confidently?</strong> Build them through BCRTI's practical, research-aligned micro-credentials.</p><a class="btn btn-primary" href="#microcredentials">Explore micro-credentials</a></div>
+      <p class="hub-note"><strong>Note:</strong> Access, quotas, pricing and eligibility can change. Confirm current requirements with the provider.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="contact-card"><div><p class="section-kicker">Training · collaboration · capability</p><h2>Build bioinformatics capability into your research.</h2><p>For micro-credential delivery, research training or collaboration enquiries, contact BCRTI.</p></div><a href="mailto:asad.prodhan@bcrti.org" class="btn btn-primary">Contact Dr Asad Prodhan</a></div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div>
+    <strong>BCRTI</strong>
+    <span>Bioinformatics Capability and Research Training Institute</span>
+  </div>
+  <p>Practical · research-aligned · reproducible bioinformatics training</p>
+  <p>
+    <a href="/refund-policy/">
+      Refund and Cancellation Policy
+    </a>
+  </p>
+</footer>
+
+<script src="assets/js/opportunity-hub.js"></script>
+</body>
+</html>
